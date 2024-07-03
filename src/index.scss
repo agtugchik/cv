@@ -1,0 +1,17 @@
+@import "./styles/reset.scss";
+@import "./styles/variables.scss";
+
+:root {
+  font-weight: 400;
+  color: $main-font-light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: $main-orange;
+  width: 100vw;
+  height: 100vh;
+}
